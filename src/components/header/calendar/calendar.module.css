@@ -1,0 +1,15 @@
+.calendar {
+  position: relative;
+  display: inline-block;
+}
+.dateOverlay {
+  position: absolute;
+  top: 60%;
+  left: 57%;
+  transform: translate(-60%, -57%);
+  display: flex;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}

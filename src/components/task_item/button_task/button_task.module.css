@@ -1,0 +1,33 @@
+.task_button {
+  border: none;
+  border-radius: 10%;
+  padding: 0 10px;
+  background-color: transparent;
+}
+/* Mobile  */
+@media all and (max-width: 450px) {
+  .task_button img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* Tablet  */
+@media all and (min-width: 451px) and (max-width: 1024px) {
+  .task_button img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Web */
+@media all and (min-width: 1025px) {
+  .task_button img {
+    width: 25px;
+    height: 25px;
+  }
+}
+.hovered {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.1),
+    0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}

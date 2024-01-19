@@ -1,0 +1,25 @@
+.homepage__container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.tasks__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 10px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: calc(100vh - 300px);
+}
+.btn_add_task {
+  margin-top: auto;
+  margin-bottom: 20px;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+.nav_bar__container {
+  margin-top: auto;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+}

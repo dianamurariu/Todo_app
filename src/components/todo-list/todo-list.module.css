@@ -1,0 +1,36 @@
+.todo_list__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+.add_first_title {
+  position: absolute;
+  color: #9395d3;
+  font-weight: 600;
+  line-height: normal;
+}
+/* Mobile */
+@media all and (max-width: 450px) {
+  .add_first_title {
+    bottom: 180px;
+    right: 70px;
+    font-size: 24px;
+  }
+}
+/* Tablet */
+@media all and (min-width: 451px) and (max-width: 1024px) {
+  .add_first_title {
+    bottom: 200px;
+    right: 60px;
+    font-size: 29px;
+  }
+}
+/* Web */
+@media all and (min-width: 1025px) {
+  .add_first_title {
+    bottom: 220px;
+    right: 60px;
+    font-size: 35px;
+  }
+}
