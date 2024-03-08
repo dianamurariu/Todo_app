@@ -47,13 +47,13 @@ The app is thoroughly tested to ensure the functionality and reliability of each
 
 2. Navigate to the project directory:
 
-  cd todo-app
+    cd todo-app
 
 3. Install dependencies
 
-   npm install
+    npm install
 
 5. Run the development server:
 
-  npm start
+    npm start
 
