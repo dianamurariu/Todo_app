@@ -8,6 +8,7 @@ Check out the live demo of the Todo App [here](https://todo-5ci801euw-dianamurar
 
 ## Features
 
+- Display current date.
 - Add new tasks to the list.
 - Edit existing tasks.
 - Mark tasks as completed.
