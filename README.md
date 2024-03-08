@@ -44,7 +44,7 @@ The app is thoroughly tested to ensure the functionality and reliability of each
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-todo-app.git
+   git clone https://github.com/dianamurariu/Todo_app.git
 
 2. Navigate to the project directory:
 
